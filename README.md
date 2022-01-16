@@ -29,7 +29,7 @@
     > `cmake ..`
 
     > `make install`
-    
+
 <br>
 
 ## **Run application**
@@ -47,7 +47,8 @@
 
 ### **Execute program**
 
-> `python src/main.py` or `python3 src/main.py`
+> `python src/tp2.py` or `python3 src/tp2.py`
+> `python src/tp3.py` or `python3 src/tp3.py`
 
 <br>
 
