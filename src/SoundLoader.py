@@ -38,4 +38,4 @@ class SoundLoader:
 
     # delete loaded sound
     def delete(self):
-        al.alDeleteBuffers(1, self.buf)
+        al.alDeleteBuffers(1, self.buffer)

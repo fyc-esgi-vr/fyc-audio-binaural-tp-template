@@ -65,13 +65,13 @@ class Player:
 
     # queue a sound buffer
     def add(self, sound):
-        al.alSourceQueueBuffers(self.source, 1, sound.buf)  # self.buf
+        al.alSourceQueueBuffers(self.source, 1, sound.buffer)  # self.buf
         self.queue.append(sound)
 
     # remove a sound from the queue (detach & unqueue to properly remove)
     def remove(self):
         if len(self.queue) > 0:
-            al.alSourceUnqueueBuffers(self.source, 1, self.queue[0].buf)  # self.buf
+            al.alSourceUnqueueBuffers(self.source, 1, self.queue[0].buffer)  # self.buf
             al.alSourcei(self.source, al.AL_BUFFER, 0)
             self.queue.pop(0)
 
