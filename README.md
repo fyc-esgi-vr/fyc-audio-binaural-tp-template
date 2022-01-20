@@ -24,11 +24,11 @@
 
     > `git clone https://github.com/kcat/openal-soft`
 
-    > `cd PyAL/build`
+    > `cd openal-soft/build`
 
     > `cmake ..`
 
-    > `make install`
+    > `sudo cmake --build .`
 
 <br>
 
